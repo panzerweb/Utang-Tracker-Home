@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Roboto&family=Roboto+Condensed&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --input-focus: #2d8cf0;
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: #fff;
+    --main-color: #323232;
+
+    --bg-check-bg: #208513;
+    --bg-clear-bg: #f3f047;
+    --bg-add-bg: #c42525;
+}
+
+#container{
+    margin: 5rem auto;
+    padding: 10px;
+    background: lightgrey;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+}
+
+#container h1{
+    font-size: 6.854rem;
+    font-family: 'Lexend Zetta', sans-serif;
+
+}
+
+#container h5{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.3rem;
+
+}
+
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+}
+  
+.comic-button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+}
+  
+.comic-button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+  
+#repository-link{
+    color: #113d8f;
+    font-weight: 700;
+    text-decoration: none;
+}
