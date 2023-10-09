@@ -95,13 +95,7 @@
     
     }
     .toast {
-        width: 50%; /* Adjust the width as needed for tablets */
+        width: 100%; /* Adjust the width as needed for tablets */
     }
   }
 
-  /* Media query for mobile devices */
-@media (max-width: 576px) {
-    .toast {
-        width: 50%; /* Adjust the width as needed for mobile devices */
-    }
-}
