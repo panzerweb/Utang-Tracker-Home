@@ -75,6 +75,18 @@
     text-decoration: none;
 }
 
+/* Center the toast */
+.toast {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+
+/*todo MEDIA QUERY*/
 @media (max-width: 768px) {
     /* Your CSS styles for tablets and mobile devices go here */
     #container h1{
@@ -82,4 +94,14 @@
         font-family: 'Lexend Zetta', sans-serif;
     
     }
+    .toast {
+        width: 50%; /* Adjust the width as needed for tablets */
+    }
   }
+
+  /* Media query for mobile devices */
+@media (max-width: 576px) {
+    .toast {
+        width: 50%; /* Adjust the width as needed for mobile devices */
+    }
+}
